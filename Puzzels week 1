@@ -1,12 +1,4 @@
 //Opgave 1: Hallo naam + leeftijd
-//Schrijf een programma die vraagt (input) naar:
-//•	Voornaam
-//•	Achternaam
-//•	Geboortejaar
-
-//Sla dit op in verschillende variabelen en geef het volgende weer (output):
-
-//•	Welkom voornaam achternaam. Volgens mijn berekening ben jij XX jaar oud.
 
 var voornaam = prompt("Wat is je voornaam?");
 var achternaam = prompt("Wat is je achternaam?");
@@ -19,8 +11,6 @@ console.log("Welkom " + voornaam + " " + achternaam + ". Volgens mijn berekening
 
 //Opgave 2: Celsius naar Fahrenheit
 
-//Schrijf een programma dat een bepaalde temperatuur in graden Celsius omzet naar de temperatuur in Fahrenheit. Hiervoor gebruik je een input en een output.
-
 var celsius = prompt("Hoeveel graden Celsius is het?");
 var fahrenheit = celsius * 1.8 + 32;
 
@@ -28,8 +18,6 @@ console.log (fahrenheit)
 
 
 //Opgave 3: Wedstrijd uitslag 
-
-//Schrijf een programma die de waarden vanuit de  prompt(); worden opgeslagen in twee variabelen. Vergelijk de twee scores, en geef via een alert() weer of team 1 of team 2 gewonnen heeft. Als het gelijkspel is, geef dit dan ook aan.
 
 var score1 = prompt("Hoeveel doelpunten heeft team 1 gemaakt?");
 var score2 = prompt("Hoeveel doelpunten heeft team 2 gemaakt?"); 
@@ -46,10 +34,6 @@ else {
 
  
 //Opgave 4: Bezorgkosten berekenen
-
-//Schrijf een programma dat kan bepalen of je bezorgkosten moet betalen bij een bestelling. Als het aankoopbedrag 25.00 euro of hoger is, dan wordt je bestelling gratis bezorgd. Als dat niet het geval is, betaal je 3.95 bezorgkosten. Vraag de bezoeker om het aankoopbedrag en toon in een popup het totaalbedrag met een melding over de bezorgkosten. 
-
-//Afhankelijk van het aankoopbedrag moet het programma de volgende popup venster genereren:
 
 var aankoopbedrag = prompt("Wat is het aankoop bedrag?");
 var totaalbedrag = parseFloat(aankoopbedrag) + 3.95;
